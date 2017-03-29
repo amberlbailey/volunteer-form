@@ -17,27 +17,28 @@
   </header>
   <form class="" action="index.html" method="POST">
 
-  <fieldset class="wrapper">
-    <legend> Personal Details </legend>
+  <fieldset class="wrapper gutter-1-2">
+    <legend class="giga pad-b-1-2 pad-t-2"> Personal Details </legend>
 
-    <div>
+    <div class="grid grid-middle">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
       <label for="name"> Full name</label>
       <input id="name" name="name">
       <label for="name"> "Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley."</label>
     </div>
 
-    <div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
       <label for="name"> What should we call you?</label>
       <input type="text" name="nickname">
       <label for="name"> What all your friends call you, e.g. “Liz”.</label>
     </div>
 
-    <div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
       <label for="date"> Date of birth</label>
       <input type="date" name="date" id="date">
     </div>
 
-    <div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
       <label for="name"> t-shirt size</label>
       <select class="size" name="size">
         <option value=""> Select a t-shirt size</option>
@@ -54,26 +55,32 @@
       </select>
     </div>
 
-    <div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
       <label for="email"> Email</label>
       <input type="email" name="email" id="email">
     </div>
 
-    <div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
       <label for="number"> Phone Number</label>
       <input type="phone" name="number" id="number">
     </div>
   </fieldest>
 
-  <fieldset>
-    <legend> Address</legend>
-    <div>
-      <div>
+  <fieldset class="wrapper">
+    <legend class="giga pad-b-1-2 pad-t-2"> Address </legend>
+
+    <div="grid grid-middle">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <label for="address">Street Address</label>
+        <input type="text" name="address" id="address">
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <label for="city">City</label>
         <input type="text" name="city" id="city">
       </div>
 
-      <div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <label for="province"> Province</label>
         <select id="province">
           <option> Select a province</option>
@@ -93,7 +100,7 @@
         </select>
       </div>
 
-      <div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <label for="postal"> Postal Code</label>
           <input type="text" minlength="6" id="postal">
       </div>
@@ -103,8 +110,8 @@
   <fieldset>
     <legend> What activities are you interested in helping with? </legend>
 
-  <div>
-    <div>
+  <div="grid grid-middle">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <input id="digging" type="checkbox">
         <label for="digging"> Digging Holes</label>
     </div>
@@ -124,7 +131,7 @@
       <label for="driving"> Driving people</label>
     </div>
 
-    <div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
       <input id="transport" type="checkbox">
       <label for="transport"> Transporting trees</label>
     </div>
@@ -148,8 +155,8 @@
 
   <fieldset>
     <legend> Do you have any experience with the following? </legend>
-    <div>
-      <div>
+    <div class="grid grid-stretch">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <input id="shovel" type="checkbox">
         <label for="shovel"> Shovels</label>
       </div>
@@ -174,7 +181,7 @@
         <label for="trail"> Trail & hill climbing</label>
       </div>
 
-      <div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <input id="bush" type="checkbox">
         <label for="bush"> Bush Craft</label>
       </div>
@@ -203,7 +210,7 @@
 
   <fieldset>
     <legend> Do you have a valid driver’s license?</legend>
-    <div>
+    <div class="unit pad-bottom">
       <input type="radio" id="drive-y" name="check">
       <label for="drive-y"> Yes</label>
       <input type="radio" id="drive-n" name="check">
@@ -213,7 +220,7 @@
 
   <fieldset>
     <legend> Do you have a pick-up truck you’d be willing to use?</legend>
-    <div>
+    <div class="unit pad-bottom">
       <input type="radio" id="truck-y" name="check-2">
       <label for="truck-y"> Yes</label>
       <input type="radio" id="truck-n" name="check-2">
@@ -223,7 +230,7 @@
 
   <fieldset>
     <legend> Do you have up-to-date first-aid certification?</legend>
-    <div>
+    <div class="unit pad-bottom">
       <input type="radio" id="aid-y" name="check-3">
       <label for="aid-y"> Yes</label>
       <input type="radio" id="aid-n" name="check-3">
@@ -233,7 +240,7 @@
 
   <fieldset>
     <legend> Please let us know any comments or questions you may have.</legend>
-    <div>
+    <div class="unit">
       <textarea id="questions" name="name" rows="8" cols="80"></textarea>
     </div>
   </fieldset>
