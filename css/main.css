@@ -30,3 +30,7 @@ fieldset {
   border-top: none;
   border-bottom: 3px solid #70ad55;
 }
+
+header {
+  color: #fff;
+}
