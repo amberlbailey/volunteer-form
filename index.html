@@ -15,6 +15,7 @@
     <h1> Apply to be a tree planter</h1>
     <p> Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
   </header>
+  <form class="" action="index.html" method="POST">
 
   <fieldset class="wrapper">
     <legend> Personal Details </legend>
@@ -66,34 +67,184 @@
 
   <fieldset>
     <legend> Address</legend>
-
     <div>
-      <label for="city">City</label>
-      <input type="text" name="city" id="city">
+      <div>
+        <label for="city">City</label>
+        <input type="text" name="city" id="city">
+      </div>
+
+      <div>
+        <label for="province"> Province</label>
+        <select id="province">
+          <option> Select a province</option>
+          <option> Alberta</option>
+          <option> British Columbia</option>
+          <option> Manitoba</option>
+          <option> New Brunswick</option>
+          <option> Newfoundland & Labrador</option>
+          <option> Northwest Territories</option>
+          <option> Nova Scotia</option>
+          <option> Nunavut</option>
+          <option> Ontario</option>
+          <option> Prince Edward Island</option>
+          <option> Québec</option>
+          <option> Saskatchewan</option>
+          <option> Yukon</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="postal"> Postal Code</label>
+          <input type="text" minlength="6" id="postal">
+      </div>
     </div>
-
-    <div>
-      <label for="province"> Province</label>
-      <select id="province">
-        <option> Select a province</option>
-        <option> Alberta</option>
-        <option> British Columbia</option>
-        <option> Manitoba</option>
-        <option> New Brunswick</option>
-        <option> Newfoundland & Labrador</option>
-        <option> Northwest Territories</option>
-        <option> Nova Scotia</option>
-        <option> Nunavut</option>
-        <option> Ontario</option>
-        <option> Prince Edward Island</option>
-        <option> Québec</option>
-        <option> Saskatchewan</option>
-        <option> Yukon</option>
-      </select>
-    </div>
-
-
   </fieldset>
 
+  <fieldset>
+    <legend> What activities are you interested in helping with? </legend>
+
+  <div>
+    <div>
+        <input id="digging" type="checkbox">
+        <label for="digging"> Digging Holes</label>
+    </div>
+
+    <div>
+      <input id="dirty" type="checkbox">
+      <label for="dirty"> Getting Dirty</label>
+    </div>
+
+    <div>
+      <input id="lifting" type="checkbox">
+      <label for="lifting"> Lifting weights</label>
+    </div>
+
+    <div>
+      <input id="driving" type="checkbox">
+      <label for="driving"> Driving people</label>
+    </div>
+
+    <div>
+      <input id="transport" type="checkbox">
+      <label for="transport"> Transporting trees</label>
+    </div>
+
+    <div>
+      <input id="photos" type="checkbox">
+      <label for="photos"> Taking photos</label>
+    </div>
+
+    <div>
+      <input id="publishing" type="checkbox">
+      <label for="publishing"> Online publishing</label>
+    </div>
+
+    <div>
+      <input id="managing" type="checkbox">
+      <label for="managing"> Managing people</label>
+    </div>
+  </div>
+  </fieldset>
+
+  <fieldset>
+    <legend> Do you have any experience with the following? </legend>
+    <div>
+      <div>
+        <input id="shovel" type="checkbox">
+        <label for="shovel"> Shovels</label>
+      </div>
+
+      <div>
+        <input id="gps" type="checkbox">
+        <label for="gps"> Hand-held GPS</label>
+      </div>
+
+      <div>
+        <input id="writing" type="checkbox">
+        <label for="writing"> Writting & Blogging</label>
+      </div>
+
+      <div>
+        <input id="photography" type="checkbox">
+        <label for="photography"> Photography</label>
+      </div>
+
+      <div>
+        <input id="trail" type="checkbox">
+        <label for="trail"> Trail & hill climbing</label>
+      </div>
+
+      <div>
+        <input id="bush" type="checkbox">
+        <label for="bush"> Bush Craft</label>
+      </div>
+
+      <div>
+        <input id="atv" type="checkbox">
+        <label for="atv"> ATVS</label>
+      </div>
+
+      <div>
+        <input id="plant" type="checkbox">
+        <label for="plant"> Plant indentification</label>
+      </div>
+
+      <div>
+        <input id="special" type="checkbox">
+        <label for="special"> Special event planning</label>
+      </div>
+
+      <div>
+        <input id="speaking" type="checkbox">
+        <label for="speaking"> Speaking to groups</label>
+      </div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend> Do you have a valid driver’s license?</legend>
+    <div>
+      <input type="radio" id="drive-y" name="check">
+      <label for="drive-y"> Yes</label>
+      <input type="radio" id="drive-n" name="check">
+      <label for="drive-n"> No</label>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend> Do you have a pick-up truck you’d be willing to use?</legend>
+    <div>
+      <input type="radio" id="truck-y" name="check-2">
+      <label for="truck-y"> Yes</label>
+      <input type="radio" id="truck-n" name="check-2">
+      <label for="truck-n"> No</label>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend> Do you have up-to-date first-aid certification?</legend>
+    <div>
+      <input type="radio" id="aid-y" name="check-3">
+      <label for="aid-y"> Yes</label>
+      <input type="radio" id="aid-n" name="check-3">
+      <label for="aid-n"> No</label>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend> Please let us know any comments or questions you may have.</legend>
+    <div>
+      <textarea id="questions" name="name" rows="8" cols="80"></textarea>
+    </div>
+  </fieldset>
+
+  <div>
+    <button class="btn" type="submit"> Apply</button>
+  </div>
+</form>
+<footer>
+  <p> © Tree Hugger International Organization </p>
+</footer>
+<hr>
 </body>
 </html>
