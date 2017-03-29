@@ -2,14 +2,98 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Data table</title>
+  <title>Volunteer Form</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700" rel="stylesheet">
 </head>
 <body>
+  <header>
+    <h1> Apply to be a tree planter</h1>
+    <p> Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+  </header>
+
+  <fieldset class="wrapper">
+    <legend> Personal Details </legend>
+
+    <div>
+      <label for="name"> Full name</label>
+      <input id="name" name="name">
+      <label for="name"> "Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley."</label>
+    </div>
+
+    <div>
+      <label for="name"> What should we call you?</label>
+      <input type="text" name="nickname">
+      <label for="name"> What all your friends call you, e.g. “Liz”.</label>
+    </div>
+
+    <div>
+      <label for="date"> Date of birth</label>
+      <input type="date" name="date" id="date">
+    </div>
+
+    <div>
+      <label for="name"> t-shirt size</label>
+      <select class="size" name="size">
+        <option value=""> Select a t-shirt size</option>
+        <option value=""> Fitted: XS</option>
+        <option value=""> Fitted: S</option>
+        <option value=""> Fitted: M</option>
+        <option value=""> Fitted: L</option>
+        <option value=""> Fitted: XL</option>
+        <option value=""> Straight-cut: XS</option>
+        <option value=""> Straight-cut: S</option>
+        <option value=""> Straight-cut: M</option>
+        <option value=""> Straight-cut: L</option>
+        <option value=""> Straight-cut: XL</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="email"> Email</label>
+      <input type="email" name="email" id="email">
+    </div>
+
+    <div>
+      <label for="number"> Phone Number</label>
+      <input type="phone" name="number" id="number">
+    </div>
+  </fieldest>
+
+  <fieldset>
+    <legend> Address</legend>
+
+    <div>
+      <label for="city">City</label>
+      <input type="text" name="city" id="city">
+    </div>
+
+    <div>
+      <label for="province"> Province</label>
+      <select id="province">
+        <option> Select a province</option>
+        <option> Alberta</option>
+        <option> British Columbia</option>
+        <option> Manitoba</option>
+        <option> New Brunswick</option>
+        <option> Newfoundland & Labrador</option>
+        <option> Northwest Territories</option>
+        <option> Nova Scotia</option>
+        <option> Nunavut</option>
+        <option> Ontario</option>
+        <option> Prince Edward Island</option>
+        <option> Québec</option>
+        <option> Saskatchewan</option>
+        <option> Yukon</option>
+      </select>
+    </div>
+
+
+  </fieldset>
 
 </body>
 </html>
