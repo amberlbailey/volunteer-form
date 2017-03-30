@@ -24,6 +24,7 @@ input, select, textarea {
 
 hr {
   border-color: #70ad55;
+  opacity: .5;
 }
 
 fieldset {
