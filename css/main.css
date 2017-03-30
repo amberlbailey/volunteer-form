@@ -28,9 +28,13 @@ hr {
 
 fieldset {
   border-top: none;
-  border-bottom: 3px solid #70ad55;
+  border-bottom: 2px solid #70ad55;
 }
 
 header {
   color: #fff;
+}
+
+.radio {
+  border: none;
 }
