@@ -17,10 +17,9 @@
   </header>
   <form class="grid gutter-1-2" method="POST" action "#">
 
-  <fieldset class="wrapper">
+  <fieldset>
     <legend class="unit gutter-1-2 giga pad-b-1-8 pad-t-2"> Personal Details </legend>
 
-    <div class="grid grid-middle">
       <div class="gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-top pad-bottom">
       <label class="push-1-8" for="name"> Full name</label>
       <input id="name" name="name">
@@ -66,7 +65,7 @@
     </div>
   </fieldest>
 
-  <hr class="unit push-2>"
+  <hr class="unit push-2">
 
   <fieldset class="wrapper pad-bottom">
     <legend class="gutter-1-2 unit giga pad-b-1-2 pad-top"> Address </legend>
@@ -109,8 +108,10 @@
     </div>
   </fieldset>
 
+  <hr class="unit push-1">
+
   <fieldset class="gutter-1-2">
-    <legend class="unit giga pad-b-1-8 push-1-4"> What activities are you interested in helping with? </legend>
+    <legend class="unit giga pad-b-1-8"> What activities are you interested in helping with? </legend>
 
       <div class="unit xs-1 s-1 m-1-2 pad-b-1-4">
         <input id="digging" type="checkbox">
@@ -153,64 +154,54 @@
       </div>
   </fieldset>
 
-  <fieldset>
+  <hr class="unit push-1">
+
+  <fieldset class="gutter-1-2">
     <legend class="unit giga pad-b-1-8 push-1-4"> Do you have any experience with the following? </legend>
-        <div class="unit xs-1 s-1 m-1-2 pad-b-1-4">
-          <input id="shovel" type="checkbox">
-          <label for="shovel"> Shovels</label>
-        </div>
 
-          <div class="unit xs-1 s-1 m-1-2 pad-b-1-4">
-          <input id="gps" type="checkbox">
-          <label for="gps"> Hand-held GPS</label>
-        </div>
-
-          <div class="unit xs-1 s-1 m-1-2 pad-b-1-4">
-          <input id="writing" type="checkbox">
-          <label for="writing"> Writting & Blogging</label>
-        </div>
-
-          <div class="unit xs-1 s-1 m-1-2 pad-b-1-4">
-          <input id="photography" type="checkbox">
-          <label for="photography"> Photography</label>
-        </div>
-
-          <div class="unit xs-1 s-1 m-1-2 pad-b-1-4">
-          <input id="trail" type="checkbox">
-          <label for="trail"> Trail & hill climbing</label>
-        </div>
-
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-          <div class=push-1-4>
-          <input id="bush" type="checkbox">
-          <label for="bush"> Bush Craft</label>
-        </div>
-
-          <div class="unit xs-1 s-1 m-1-2 pad-b-1-4">
-          <input id="atv" type="checkbox">
-          <label for="atv"> ATVS</label>
-        </div>
-
-          <div class="unit xs-1 s-1 m-1-2 pad-b-1-4">
-          <input id="plant" type="checkbox">
-          <label for="plant"> Plant indentification</label>
-        </div>
-
-          <div class="unit xs-1 s-1 m-1-2 pad-b-1-4">
-          <input id="special" type="checkbox">
-          <label for="special"> Special event planning</label>
-        </div>
-
-          <div class="unit xs-1 s-1 m-1-2 push-1-8 pad-b">
-          <input id="speaking" type="checkbox">
-          <label for="speaking"> Speaking to groups</label>
-        </div>
+      <div class="unit xs-1 s-1 m-1-2 pad-b-1-4">
+        <input id="shovels" type="checkbox">
+        <label for="shovels"> Shovels</label>
       </div>
-    </div>
+
+      <div class="unit xs-1 s-1 m-1-2 pad-b-1-4">
+        <input id="gps" type="checkbox">
+        <label for="gps"> Hand-held GPS</label>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 pad-b-1-4">
+        <input id="writing" type="checkbox">
+        <label for="writing"> Writing & blogging</label>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 pad-b-1-4">
+        <input id="photos" type="checkbox">
+        <label for="photos"> Photography</label>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 pad-b-1-4">
+        <input id="trail" type="checkbox">
+        <label for="trail"> Trail & hill climbing</label>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 pad-b-1-4">
+        <input id="bush" type="checkbox">
+        <label for="bush"> Bush craft</label>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 pad-b-1-4">
+        <input id="atv" type="checkbox">
+        <label for="atv"> ATVs</label>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 pad-b-1-4">
+        <input id="plant" type="checkbox">
+        <label for="plant"> Plant identification</label>
+      </div>
   </fieldset>
 
   <fieldset class="wrapper gutter-1-2">
-    <legend class="giga pad-b-1-2 pad-t-2"> Do you have a valid driver’s license? </legend>
+    <legend class="unit giga pad-b-1-2 pad-t-2"> Do you have a valid driver’s license? </legend>
     <div class="unit pad-bottom">
       <input type="radio" id="drive-y" name="check">
       <label for="drive-y"> Yes</label>
@@ -220,7 +211,7 @@
   </fieldset>
 
   <fieldset class="wrapper gutter-1-2">
-    <legend class="giga pad-b-1-2 pad-t-2"> Do you have a pick-up truck you’d be willing to use? </legend>
+    <legend class="unit giga pad-b-1-2 pad-t-2"> Do you have a pick-up truck you’d be willing to use? </legend>
     <div class="unit pad-bottom">
       <input type="radio" id="truck-y" name="check-2">
       <label for="truck-y"> Yes</label>
@@ -230,7 +221,7 @@
   </fieldset>
 
   <fieldset class="wrapper gutter-1-2">
-    <legend class="giga pad-b-1-2 pad-t-2"> Do you have up-to-date first-aid certification? </legend>
+    <legend class="unit giga pad-b-1-2 pad-t-2"> Do you have up-to-date first-aid certification? </legend>
     <div class="unit pad-bottom">
       <input type="radio" id="aid-y" name="check-3">
       <label for="aid-y"> Yes</label>
@@ -240,19 +231,21 @@
   </fieldset>
 
   <fieldset class="wrapper gutter-1-2">
-      <legend class="giga pad-b-1-2 pad-t-2"> Please let us know any comments or questions you may have. </legend>
+      <legend class="unit giga pad-b-1-2 pad-t-2"> Please let us know any comments or questions you may have. </legend>
     <div class="unit">
       <textarea id="questions" name="name" rows="8" cols="80"></textarea>
     </div>
   </fieldset>
 
+  <hr class="unit push-2">
+
   <div class="unit text-center push-2">
     <button class="btn giga" type="submit"> Apply</button>
   </div>
+
 </form>
 <footer>
-  <p class="gutter-1-2 milli push-0 pad-top"> © Tree Hugger International Organization </p>
+  <p class="unit gutter-1-2 milli push-0 pad-top pad-bottom"> © Tree Hugger International Organization </p>
 </footer>
-<hr>
 </body>
 </html>
